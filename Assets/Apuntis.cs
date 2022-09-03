@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement; //engine para cambiar de escena
 using UnityEngine.UI; //UI engine
 
-
+//https://github.com/jeronimosanchezperuga/TICL1L2-RepasoArraysABE
 
 public class Apuntis : MonoBehaviour
 {
@@ -45,7 +45,7 @@ public class Apuntis : MonoBehaviour
         foreach (GameObject go in arrayDeMesas)
         {
             go.AddComponent<Mesa>();
-            go.GetComponent<Mesa>().destructible = Random.Range(0, 2) == 0;
+            go.GetComponent<Mesa>().destructible = Random.Range(0, 2) == 0;  //randomrange es nros aleatorios
 
         }
     }
