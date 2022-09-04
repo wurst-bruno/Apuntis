@@ -45,7 +45,9 @@ public class Apuntis : MonoBehaviour
         foreach (GameObject go in arrayDeMesas)
         {
             go.AddComponent<Mesa>();
-            go.GetComponent<Mesa>().destructible = Random.Range(0, 2) == 0;  //randomrange es nros aleatorios
+            go.GetComponent<Mesa>().destructible = Random.Range(0, 2) == 0;  
+           //Random.Range(0, 10); // Returns a number between 0 and 9
+           //Random.Range(0f, 10f); // Returns a float between 0 and 10 
 
         }
     }

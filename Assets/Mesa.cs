@@ -5,4 +5,5 @@ using UnityEngine;
 public class Mesa : MonoBehaviour
 {
     public bool destructible;
+    //valores bool: True o False
 }
