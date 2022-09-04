@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement; //engine para cambiar de escena
 using UnityEngine.UI; //UI engine
 
+//1 so por cada elemento
 //https://github.com/jeronimosanchezperuga/TICL1L2-RepasoArraysABE
 
 public class Apuntis : MonoBehaviour
