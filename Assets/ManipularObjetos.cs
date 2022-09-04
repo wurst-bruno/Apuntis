@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 //https://github.com/jeronimosanchezperuga/TICL1L2-RepasoArraysABE/blob/main/Assets/Scripts/ManipularObjetos.cs
 
 public class ManipularObjetos : MonoBehaviour
@@ -30,7 +31,7 @@ public class ManipularObjetos : MonoBehaviour
     {
         for (int i = 0; i < sillas.Length; i++)
         {
-            sillas[i].SetActive(false);
+            sillas[i].SetActive(false); //Las desactiva del todo
         }
     }
 
@@ -46,7 +47,7 @@ public class ManipularObjetos : MonoBehaviour
     {
         for (int i = 0; i < sillas.Length; i++)
         {
-            sillas[i].AddComponent<BoxCollider>();
+            sillas[i].AddComponent<BoxCollider>(); //agrega BC
         }
     }
 

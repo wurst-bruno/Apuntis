@@ -39,7 +39,6 @@ public class Apuntis : MonoBehaviour
 
     //5.Crear una funcion que asigne todos los elementos del array el script mesa;
     //Establecer el valor de la variable "destructible" aleatoriamente.
-
     void AssignScriptMesaToArrayElement()
     {
         foreach (GameObject go in arrayDeMesas)
@@ -53,14 +52,8 @@ public class Apuntis : MonoBehaviour
     }
 
 
-
-
-
-
-    //6. Crear una funcion que destruya el elemento del array que contenga un
+        //6. Crear una funcion que destruya el elemento del array que contenga un
     //script "Mesa" cuya variable booleana "Destructible" sea true. (Crear el script "Mesa")
-
-
     void DestroyDestructible()
     {
         foreach (GameObject go in arrayDeMesas)
